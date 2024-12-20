@@ -1,13 +1,23 @@
 body {
-    background-color: blanchedalmond;
+    background-color: #807182; 
+    color: #F7B1AB ;
+ 
 } 
 
 .btn-primary{
-    background-color: #709ffe;
+    background-color: #F7B1AB;
      font-family: 'Inter';
      font-weight: 500;
      border:0;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn:hover{
+    background-color: #daa4a0;
+}
+
+.card-subtitle {
+    font-style: italic;
 }
 .hero-text {
     font-family: 'Inter', serif;
@@ -46,6 +56,15 @@ body {
 
 }
 
+.services-header {
+    text-align: center;
+    font-size: 70px;
+}
+.other-services-header {
+    text-align: center;
+    font-size: 70px;
+}
+
 .learning-header{
     font-family: 'Inter';
     font-style: normal;
@@ -58,13 +77,13 @@ body {
 }
 
 .learning-card{
-    background-color:#709ffe;
-
+    background-color:#FFC9B5;
     font-family: 'Inter';
 }
 
 .learning-title{
-    background-color:white;
+    background-color:#F4D8CD;
+    border-radius: 25%;
     padding: 0 10px;
     margin-bottom: 10px;
     font-style: normal;
@@ -85,7 +104,7 @@ body {
 }
 
 .price-header{
-        font-family: 'Inter';
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -99,13 +118,14 @@ body {
 }
 
 .price-card{
-    background-color:#709ffe;
+    background-color:#FFC9B5;
     font-family: 'Inter'; 
     border: 0;
+    border-radius: 5%;
 }
 
 .price-title{
-    background-color:white;
+    background-color:#F4D8CD;
     padding: 0 10px;
     margin-bottom: 10px;
     font-style: normal;
@@ -116,6 +136,49 @@ body {
     display: inline-block;
     text-align: left;
 }
+
+
+.group-title{
+    background-color:#F4D8CD;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: -0.01em;
+    display: inline-block;
+    text-align: left;
+}
+
+.section-header{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: -0.01em;
+
+}
+
+.section-subtitle{
+    margin-bottom: 40px;
+    font-style: italic;
+    color: #C7D3BF;
+}
+
+.terms-conditions{
+  color: #C7D3BF;
+}
+.terms-conditions row > col> ol > li{
+    margin-bottom: 12rem;
+
+}
+
+
+
+
 /* Small is  576 pixels in Bootstrap*/
 @media (max-width:576px) {
     .hero-text{
