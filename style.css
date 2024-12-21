@@ -1,19 +1,20 @@
 body {
-    background-color: #807182; 
-    color: #F7B1AB ;
+    background-color: rgb(207, 225, 251); 
+    /* color: white ; */
  
 } 
 
 .btn-primary{
-    background-color: #F7B1AB;
+    background-color: #88b6ff;
      font-family: 'Inter';
-     font-weight: 500;
+     font-weight: 600;
      border:0;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     color: black;
 }
 
 .btn:hover{
-    background-color: #daa4a0;
+    background-color: #88b6ff;
 }
 
 .card-subtitle {
@@ -77,13 +78,15 @@ body {
 }
 
 .learning-card{
-    background-color:#FFC9B5;
+    background-color:#5391f4;
     font-family: 'Inter';
+    color: black;
+    
 }
 
 .learning-title{
-    background-color:#F4D8CD;
-    border-radius: 25%;
+    background-color: #88b6ff;
+
     padding: 0 10px;
     margin-bottom: 10px;
     font-style: normal;
@@ -93,6 +96,8 @@ body {
     letter-spacing: -0.01em;
     display: inline-block;
     text-align: left;
+    color: black;
+   
 }
 
 
@@ -101,6 +106,7 @@ body {
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
+    color: black;
 }
 
 .price-header{
@@ -118,14 +124,14 @@ body {
 }
 
 .price-card{
-    background-color:#FFC9B5;
+    background-color:#5391f4;
     font-family: 'Inter'; 
     border: 0;
     border-radius: 5%;
 }
 
 .price-title{
-    background-color:#F4D8CD;
+    background-color:#88b6ff;
     padding: 0 10px;
     margin-bottom: 10px;
     font-style: normal;
@@ -139,7 +145,7 @@ body {
 
 
 .group-title{
-    background-color:#F4D8CD;
+    background-color:#88b6ff;
     padding: 0 10px;
     margin-bottom: 10px;
     font-style: normal;
@@ -165,11 +171,11 @@ body {
 .section-subtitle{
     margin-bottom: 40px;
     font-style: italic;
-    color: #C7D3BF;
+    color: black;
 }
 
 .terms-conditions{
-  color: #C7D3BF;
+  color: black;
 }
 .terms-conditions row > col> ol > li{
     margin-bottom: 12rem;
